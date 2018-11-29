@@ -1,0 +1,26 @@
+{
+  "name": "empty-project-template",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "babel-plugin-transform-remove-console": "^6.8.5",
+    "expo": "^23.0.4",
+    "native-base": "^2.8.1",
+    "react": "16.0.0",
+    "react-native": "^0.57.7",
+    "react-native-firebase": "^3.3.0",
+    "react-native-gesture-handler": "^1.0.0-alpha.27"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "babel-jest": "20.0.3"
+  }
+}
